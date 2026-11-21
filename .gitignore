@@ -1,0 +1,36 @@
+# Ambientes e secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Configuração local do editor
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Dados e artefatos locais gerados
+/data/raw/
+/data/processed/
+/data/external/
+/reports/
+/models/
+*.parquet
+*.feather
+*.sqlite
+*.db
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
